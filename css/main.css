@@ -23,3 +23,33 @@ header {
 .title {
   text-wrap: nowrap;
 }
+
+.hero {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.hero-img {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.hero-title {
+  text-align: center;
+  font-size: xx-large;
+}
+.accent {
+  color: #e165ad;
+}
+
+.hero-button {
+  background-color: #5a59ce;
+  font-size: 12px;
+  color: white;
+  border: none;
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 0px 30px 25px 0px rgba(0, 0, 0, 0.2);
+}
