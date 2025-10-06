@@ -63,6 +63,35 @@ header {
 }
 
 .cajas_top {
-  border: solid black 1px;
-  border-radius: 50px;
+  border-radius: 30px;
+  list-style: none;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0px 30px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+.list_top {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.cajas_img {
+  width: 100%;
+}
+.caja_madre {
+  padding: 35px;
+}
+
+.lorem {
+  margin: 10px;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.dolar {
+  margin: 10px;
+  padding-left: 20px;
+  color: #e165ad;
+  font-weight: bold;
 }
