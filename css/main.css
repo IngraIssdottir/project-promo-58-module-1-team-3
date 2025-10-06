@@ -53,3 +53,16 @@ header {
   border-radius: 50px;
   box-shadow: 0px 30px 25px 0px rgba(0, 0, 0, 0.2);
 }
+
+.top_tittle {
+  color: #e165ad;
+  padding: 20px 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.cajas_top {
+  border: solid black 1px;
+  border-radius: 50px;
+}
