@@ -15,7 +15,7 @@ header {
 .logo-text {
   display: flex;
   gap: 20px;
-  align-items: center;
+  align-items: left;
 }
 .title {
   text-wrap: nowrap;
@@ -168,18 +168,212 @@ header {
 }
 /* parte maria josé */
 .icono-servicio {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   background-color: #000;
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.icono-servicio:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
 .icono-naranja {
   background-color: #ff5722;
 }
+
 .icono-amarillo {
   background-color: #facd49;
+  color: #333;
+}
+
+/* SECCIÓN GENERAL */
+.logos {
+  display: flex; /* 🔸 Dos columnas: imagen + contenido */
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 60px 0;
+  background-color: #f8f8f8;
+}
+
+/* IMAGEN DE LA IGLESIA */
+.logos img {
+  width: 450px;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+/* CONTENEDOR DE SERVICIOS */
+.caja-servicios {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.titulo-rosa {
+  color: #e91e63;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.tutulo-negro {
+  color: #222;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* LISTA DE SERVICIOS */
+.lista-servicios {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* CADA BLOQUE DE SERVICIO */
+.lista-iconos {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 20px;
+  width: 500px; /* 🔸 Más largo */
+  height: 120px; /* 🔸 Más bajo y alargado */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lista-iconos:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* TEXTO DENTRO DE CADA BLOQUE */
+.small-icons {
+  text-align: left;
+}
+
+.small-icons h4 {
+  margin: 0 0 5px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.small-icons p {
+  margin: 0;
+  font-size: 15px;
+  color: #666;
+}
+
+/* RESPONSIVE */
+@media (max-width: 480px) {
+  .lista-iconos {
+    width: 90%;
+  }
+}
+
+/* Contenedor general */
+.logos {
+  padding: 60px 0;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+/* Caja de títulos */
+.caja-servicios {
+  margin-bottom: 50px;
+}
+
+.titulo-rosa {
+  color: #e91e63;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.tutulo-negro {
+  color: #222;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Lista de servicios */
+.lista-servicios {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Cada ítem */
+.lista-iconos {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lista-iconos:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenedor del texto */
+.small-icons {
+  text-align: left;
+}
+
+.small-icons h4 {
+  margin: 0 0 5px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.small-icons p {
+  margin: 0;
+  font-size: 15px;
+  color: #666;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .lista-servicios {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .lista-iconos {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .small-icons {
+    text-align: center;
+  }
 }
