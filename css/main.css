@@ -5,7 +5,6 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
 header {
   font-size: small;
   display: flex;
@@ -13,29 +12,24 @@ header {
   padding: 20px;
   justify-content: space-between;
 }
-
 .logo-text {
   display: flex;
   gap: 20px;
   align-items: center;
 }
-
 .title {
   text-wrap: nowrap;
 }
-
 .hero {
   padding: 20px;
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-
 .hero-img {
   padding-right: 30px;
   padding-left: 30px;
 }
-
 .hero-title {
   text-align: center;
   font-size: xx-large;
@@ -43,7 +37,6 @@ header {
 .accent {
   color: #e165ad;
 }
-
 .hero-button {
   background-color: #5a59ce;
   font-size: 12px;
@@ -53,7 +46,6 @@ header {
   border-radius: 50px;
   box-shadow: 0px 30px 25px 0px rgba(0, 0, 0, 0.2);
 }
-
 .top_tittle {
   color: #e165ad;
   padding: 20px 20px;
@@ -61,7 +53,6 @@ header {
   letter-spacing: 2px;
   font-weight: 500;
 }
-
 .cajas_top {
   border-radius: 30px;
   list-style: none;
@@ -69,46 +60,51 @@ header {
   background-color: white;
   box-shadow: 0px 30px 25px 0px rgba(0, 0, 0, 0.2);
 }
-
 .list_top {
   display: flex;
   flex-direction: column;
   gap: 35px;
 }
-
 .cajas_img {
   width: 100%;
 }
 .caja_madre {
   padding: 35px;
 }
-
 .lorem {
   margin: 10px;
   padding-left: 20px;
   font-weight: bold;
 }
-
 .dolar {
   margin: 10px;
   padding-left: 20px;
   color: #e165ad;
   font-weight: bold;
 }
-
 /* parte ingra */
 .señora {
   width: 100%;
   padding: 15px;
 }
-
 .iglesia {
   width: 100%;
   padding: 25px;
 }
-
 /* parte maria josé */
-
-.iglesia_img {
-  display: none;
+.icono-servicio {
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.icono-naranja {
+  background-color: #ff5722;
+}
+.icono-amarillo {
+  background-color: #facd49;
 }
