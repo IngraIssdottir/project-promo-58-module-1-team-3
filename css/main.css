@@ -88,6 +88,11 @@ header {
   width: 100%;
   padding: 15px;
 }
+
+.side-señora {
+  display: none
+}
+
 .iglesia {
   width: 100%;
   padding: 25px;
@@ -165,7 +170,78 @@ header {
     text-align: left;
     align-items: flex-start;
   }
-}
+
+  /*ingra*/
+  .iglesia {
+    display: none;
+  }
+
+  .side-señora {
+    display: block;
+  }
+
+  .maleta {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin: 24px 128px 24px 0;
+    
+  }
+
+  .travel-point {
+    list-style-type: none;
+  }
+
+ .bebefits {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  
+ }
+
+ .señora {
+  padding: 0%;
+  }
+
+ .travel {
+  color: #e165ad;
+  font-weight: bold;
+  width: 500px;
+  letter-spacing: 5px;
+  padding: 0px 0px 10px 0px;
+ }
+
+ .lorem-t {
+  font-weight: bold;
+  font-size: x-large;
+  padding: 0px 0px 20px 0px;
+ }
+ 
+ .benefits-cajas {
+  width: 120px;
+  height: 90px;
+  flex: 1px;
+  display: inline-block;
+  border: 0.5px solid rgb(217, 212, 212);
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  
+ }
+ 
+ .numero-naranja {
+  font-weight: bold;
+  font-size: larger;
+  color: orangered;
+  padding: 0px 0px 10px 0px;
+ }
+
+ .letras-debajo { 
+  font-weight: lighter;
+  font-size: 11px;
+ }
+
 /* parte maria josé */
 .icono-servicio {
   width: 80px;
