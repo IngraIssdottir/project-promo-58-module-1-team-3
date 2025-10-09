@@ -173,6 +173,21 @@ header {
 
   /* parte Jenny*/
 
+  .list_top {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .top_tittle {
+    padding-top: 100px;
+    justify-content: left;
+    display: flex;
+    padding-left: 50px;
+  }
+
+  .caja-madre img {
+    width: 30%;
+  }
+
   /*ingra*/
   .iglesia {
     display: none;
