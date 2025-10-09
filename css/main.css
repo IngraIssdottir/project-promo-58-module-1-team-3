@@ -133,7 +133,7 @@ header {
   }
 
   .nav-list {
-    display: flex !important;
+    display: flex;
   }
 
   .menu {
