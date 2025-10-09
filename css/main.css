@@ -171,6 +171,8 @@ header {
     align-items: flex-start;
   }
 
+  /* parte Jenny*/
+
   /*ingra*/
   .iglesia {
     display: none;
@@ -354,10 +356,9 @@ header {
   }
 
   /* RESPONSIVE */
-  @media (max-width: 480px) {
-    .lista-iconos {
-      width: 90%;
-    }
+
+  .lista-iconos {
+    width: 90%;
   }
 
   /* Contenedor general */
@@ -435,20 +436,19 @@ header {
   }
 
   /* RESPONSIVE */
-  @media (max-width: 768px) {
-    .lista-servicios {
-      flex-direction: column;
-      align-items: center;
-      gap: 25px;
-    }
 
-    .lista-iconos {
-      flex-direction: column;
-      text-align: center;
-    }
+  .lista-servicios {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
 
-    .small-icons {
-      text-align: center;
-    }
+  .lista-iconos {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .small-icons {
+    text-align: center;
   }
 }
