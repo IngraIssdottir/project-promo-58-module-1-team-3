@@ -184,7 +184,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: start;
-    margin: 24px 128px 24px 0;
+    margin: 24px 0;
   }
 
   .travel-point {
@@ -204,6 +204,7 @@ header {
   .travel {
     color: #e165ad;
     font-weight: bold;
+    max-width: 100%;
     width: 500px;
     letter-spacing: 5px;
     padding: 0px 0px 10px 0px;
