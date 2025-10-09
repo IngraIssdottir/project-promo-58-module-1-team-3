@@ -120,7 +120,7 @@ header {
 
 /* A PARTIR DE AQUÍ VERSIÓN ESCRITORIO */
 
-@media (width >= 1000px) {
+@media (width >= 768px) {
   header {
     display: flex;
     flex-direction: row;
