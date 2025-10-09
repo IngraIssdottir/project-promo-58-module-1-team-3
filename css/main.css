@@ -199,13 +199,13 @@ header {
 
   .señora {
     padding: 0%;
+    width: 50%;
   }
 
   .travel {
     color: #e165ad;
     font-weight: bold;
     max-width: 100%;
-    width: 500px;
     letter-spacing: 5px;
     padding: 0px 0px 10px 0px;
   }
