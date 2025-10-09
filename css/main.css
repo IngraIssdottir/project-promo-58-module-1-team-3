@@ -93,10 +93,82 @@ header {
   display: none;
 }
 
+/* Parte Maria Jose  */
+
 .iglesia {
   width: 100%;
   padding: 25px;
 }
+
+.titulo-rosa {
+  color: #f85e9f;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.titulo-negro {
+  text-align: center;
+  font-size: 44px;
+  line-height: 1.2;
+}
+
+.iglesia {
+  display: block;
+}
+
+.icono-servicio {
+  width: 80px;
+  height: 80px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icono-servicio:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.icono-naranja {
+  background-color: #ff5722;
+}
+
+.icono-amarillo {
+  background-color: #facd49;
+}
+
+.icono-rosa {
+  background-color: #f85e9f;
+}
+.destacado {
+  border: 1px solid #19182519;
+}
+
+.lista-iconos {
+  padding: 32px;
+  margin: 20px;
+}
+
+.lista-servicios {
+  list-style: none;
+}
+
+.lorem-s {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #191825;
+}
+
+.texto-lorem {
+  color: #19182580;
+  margin-top: 20px;
+  font-size: 18px;
+}
+/*Fin  parte maria josé */
 
 .nav-menu {
   display: none;
@@ -189,7 +261,6 @@ header {
   }
 
   /*ingra*/
-  
 
   .side-señora {
     display: block;
@@ -253,38 +324,6 @@ header {
   .letras-debajo {
     font-weight: lighter;
     font-size: 11px;
-  }
-
-  /* parte maria josé */
-  
-  .iglesia {
-    display:block
-  }
-
-  .icono-servicio {
-    width: 80px;
-    height: 80px;
-    background-color: #000;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-
-  .icono-servicio:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  }
-
-  .icono-naranja {
-    background-color: #ff5722;
-  }
-
-  .icono-amarillo {
-    background-color: #facd49;
-    color: #333;
   }
 
   /* SECCIÓN GENERAL */
