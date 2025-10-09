@@ -189,9 +189,7 @@ header {
   }
 
   /*ingra*/
-  .iglesia {
-    display: none;
-  }
+  
 
   .side-señora {
     display: block;
@@ -216,7 +214,7 @@ header {
 
   .señora {
     padding: 0%;
-    width: 50%;
+    width: 65%;
   }
 
   .travel {
@@ -258,6 +256,11 @@ header {
   }
 
   /* parte maria josé */
+  
+  .iglesia {
+    display:block
+  }
+
   .icono-servicio {
     width: 80px;
     height: 80px;
