@@ -303,7 +303,7 @@ header {
     justify-content: center;
   }
   .top_tittle {
-    padding-top: 100px;
+    padding-top: 50px;
     justify-content: left;
     display: flex;
     padding-left: 50px;
@@ -388,6 +388,7 @@ header {
     display: flex;
     flex-direction: row-reverse;
     margin: 50px;
+    padding-top: 50px;
   }
 
   /* IMAGEN DE LA IGLESIA */
@@ -398,9 +399,7 @@ header {
     object-fit: cover;
     padding-top: 80px;
   }
-  .logos {
-    padding-top: 100px;
-  }
+
   .logos-content {
     width: 50%;
   }
