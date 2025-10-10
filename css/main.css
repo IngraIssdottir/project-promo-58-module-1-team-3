@@ -25,6 +25,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  padding-bottom: 70px;
 }
 .hero-img {
   padding-right: 30px;
@@ -73,7 +74,9 @@ header {
   width: 100%;
 }
 .caja_madre {
-  padding: 35px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
 }
 .lorem {
   margin: 10px;
@@ -90,6 +93,7 @@ header {
 .señora {
   width: 100%;
   padding: 15px;
+  padding-top: 80px;
 }
 
 .side-señora {
@@ -101,6 +105,7 @@ header {
 .iglesia {
   width: 100%;
   padding: 25px;
+  padding-bottom: 60px;
 }
 
 .titulo-rosa {
@@ -117,6 +122,7 @@ header {
 
 .iglesia {
   display: block;
+  padding-top: 50px;
 }
 
 .icono-servicio {
