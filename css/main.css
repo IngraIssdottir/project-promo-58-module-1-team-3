@@ -197,6 +197,7 @@ header {
 /* A PARTIR DE AQUÍ VERSIÓN ESCRITORIO */
 
 @media (width >= 1000px) {
+  /* ESTHER */
   header {
     display: flex;
     flex-direction: row;
@@ -246,6 +247,7 @@ header {
     text-align: left;
     align-items: flex-start;
   }
+  /*FIN ESTHER*/
 
   /* parte Jenny*/
 
