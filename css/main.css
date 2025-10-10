@@ -202,6 +202,13 @@ header {
 
 /* FOOTER */
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
 .logo__title {
   display: flex;
   flex: row;
@@ -217,7 +224,7 @@ header {
   flex-direction: row;
   list-style-type: none;
   padding-left: 25px;
-  padding-block: 10px;
+  padding-block: 15px;
 }
 
 .fa-facebook-f {
@@ -239,6 +246,11 @@ header {
   padding: 10px;
   border-radius: 300px;
   margin: 15px;
+}
+.lista-menu {
+  list-style-type: none;
+  padding: 50px 150px 50px 50px;
+  display: none
 }
 
 /* A PARTIR DE AQUÍ VERSIÓN ESCRITORIO */
@@ -412,4 +424,25 @@ header {
     margin-right: 32px;
   }
   /* FIN de la seccin Maria Jose */
+
+  /* FOOTER */
+
+   .lista-menu {
+    display: block;
+   }
+
+   .home-negrita {
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+   }
+
+   .lista-footer {
+    padding: 0px 20px 20px 0px;
+   }
+
+   .name-socials {
+     padding-left: 50px;
+  }
+
 }
