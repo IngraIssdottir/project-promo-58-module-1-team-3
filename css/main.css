@@ -29,6 +29,7 @@ header {
 .hero-img {
   padding-right: 30px;
   padding-left: 30px;
+  padding-top: 90px;
 }
 .hero-title {
   text-align: center;
@@ -127,7 +128,6 @@ header {
   border-radius: 15px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .icono-servicio:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
@@ -146,6 +146,7 @@ header {
 }
 .destacado {
   border: 1px solid #19182519;
+  border-radius: 30px;
 }
 
 .lista-iconos {
@@ -168,6 +169,7 @@ header {
   margin-top: 20px;
   font-size: 18px;
 }
+
 /*Fin  parte maria josé */
 
 .nav-menu {
@@ -275,6 +277,7 @@ header {
 
   .travel-point {
     list-style-type: none;
+    padding-top: 100px;
   }
 
   .bebefits {
@@ -286,6 +289,7 @@ header {
   .señora {
     padding: 0%;
     width: 65%;
+    padding-top: 90px;
   }
 
   .travel {
@@ -341,8 +345,11 @@ header {
     height: auto;
     border-radius: 20px;
     object-fit: cover;
+    padding-top: 80px;
   }
-
+  .logos {
+    padding-top: 100px;
+  }
   .logos-content {
     width: 50%;
   }
