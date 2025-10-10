@@ -194,6 +194,47 @@ header {
   gap: 20px;
 }
 
+/* FOOTER */
+
+.logo__title {
+  display: flex;
+  flex: row;
+  padding-left: 25px;
+}
+
+.title-footer {
+  padding-left: 15px;
+}
+
+.redes-sociales {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding-left: 25px;
+  padding-block: 10px;
+}
+
+.fa-facebook-f {
+  background-color: #5a59ce;
+  padding: 10px;
+  border-radius: 300px;
+  margin: 15px;
+}
+
+.fa-twitter {
+  background-color: #5a59ce;
+  padding: 10px;
+  border-radius: 300px;
+  margin: 15px;
+}
+
+.fa-instagram {
+  background-color: #5a59ce;
+  padding: 10px;
+  border-radius: 300px;
+  margin: 15px;
+}
+
 /* A PARTIR DE AQUÍ VERSIÓN ESCRITORIO */
 
 @media (width >= 1000px) {
