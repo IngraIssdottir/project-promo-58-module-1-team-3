@@ -205,9 +205,8 @@ header {
 .footer {
   display: flex;
   justify-content: space-between;
+  align-items: self-end;
 }
-
-
 
 .logo__title {
   display: flex;
@@ -250,7 +249,7 @@ header {
 .lista-menu {
   list-style-type: none;
   padding: 50px 150px 50px 50px;
-  display: none
+  display: none;
 }
 
 /* A PARTIR DE AQUÍ VERSIÓN ESCRITORIO */
@@ -427,22 +426,19 @@ header {
 
   /* FOOTER */
 
-   .lista-menu {
-    display: block;
-   }
+  .lista-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 
-   .home-negrita {
+  .home-negrita {
     font-weight: 700;
     text-decoration: none;
     color: black;
-   }
-
-   .lista-footer {
-    padding: 0px 20px 20px 0px;
-   }
-
-   .name-socials {
-     padding-left: 50px;
   }
 
+  .name-socials {
+    padding-left: 50px;
+  }
 }
