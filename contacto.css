@@ -6,6 +6,11 @@
   padding: 10px 20px;
 }
 
+.menus {
+  display: flex;
+  align-items: center;
+}
+
 .contacto {
   color: #f85e9f;
   padding: 2rem;
