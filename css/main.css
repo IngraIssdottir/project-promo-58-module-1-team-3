@@ -196,6 +196,12 @@ header {
   justify-content: flex-end;
   text-wrap: nowrap;
 }
+
+.nav-list li:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
 .hero-content {
   display: flex;
   flex-direction: column;
@@ -253,6 +259,12 @@ header {
   list-style-type: none;
   padding: 50px 150px 50px 50px;
   display: none;
+}
+
+.lista-menu li:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+  transition: all 0.3s ease;
 }
 
 /* A PARTIR DE AQUÍ VERSIÓN ESCRITORIO */
@@ -461,9 +473,7 @@ header {
   color: #f85e9f;
 }
 
-
 /* HOJA DE CONTACTO */
-
 
 /* Estilo para la sección de contacto */
 .header {
@@ -510,7 +520,7 @@ header {
   background-color: rgba(250, 205, 73, 0.08);
   padding: 50px;
   border-radius: 20px;
-  margin: 1px
+  margin: 1px;
 }
 
 .formulario input,
@@ -543,9 +553,6 @@ header {
   min-height: 300px;
   border-radius: 8px;
 }
-
-
-
 
 /* Diseño responsive: en pantallas pequeñas, apila en columna */
 @media (max-width: 768px) {
