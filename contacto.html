@@ -1,49 +1,66 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ada Travel</title>
+    <script
+      src="https://kit.fontawesome.com/66349fc88a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ada Travel</title>
-  <link rel="stylesheet" href="./css/main.css" />
-</head>
-
-<body>
-  <!-- HEADER -->
-  <header class="header">
-    <div class="menus">
-      <img class="logo" src="./images/1.png" alt="Logo Ada Travel" />
-      <h1 class="titulo-contacto">Ada Travel</h1>
-    </div>
-    <img class="menu" src="./images/menu.png" alt="Imagen menu" />
-  </header>
-
-  <!-- MAIN -->
-  <main>
-    <section class="contacto">
-      <div class="caja">
-        <div class="formulario">
-          <form>
-            <h2 class="titulo-form">SUSCRIBETE</h2>
-            <input type="email" placeholder="Email" required />
-            <input type="text" placeholder="Nombre" required />
-            <textarea placeholder="Comentario"></textarea>
-            <button type="submit">Enviar</button>
-          </form>
-        </div>
-        <div class="mapa">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.2263217872026!2d-3.676626284604812!3d40.43786927936333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228fbbd2cda3d%3A0x102b8b4d7048b6!2sMadrid!5e0!3m2!1ses!2ses!4v1600000000000"
-            width="100%" height="300" style="border: 0" allowfullscreen="" loading="lazy">
-          </iframe>
-        </div>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="logo-text">
+        <img class="logo" src="./images/1.png" alt="Imagen de logo" />
+        <h1 class="title">Ada Travel</h1>
       </div>
-    </section>
-  </main>
+      <img class="menu" src="./images/menu.png" alt="Imagen menu" />
+      <nav class="nav-menu">
+        <ul class="nav-list">
+          <li><a class="a-menu-negrita" href="./index.html#hero">Home</a></li>
+          <li>
+            <a class="a-menu" href="./index.html#top_d">Precios especiales</a>
+          </li>
+          <li><a class="a-menu" href="./contacto.html">Contáctanos</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <!-- FOOTER -->
-  <footer class="footer-contacto">
-     <div class="name-socials">
+    <!-- MAIN -->
+    <main>
+      <section class="contacto">
+        <div class="caja">
+          <div class="formulario">
+            <form>
+              <h2 class="titulo-form">SUSCRIBETE</h2>
+              <input type="email" placeholder="Email" required />
+              <input type="text" placeholder="Nombre" required />
+              <textarea placeholder="Comentario"></textarea>
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+          <div class="mapa">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.2263217872026!2d-3.676626284604812!3d40.43786927936333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228fbbd2cda3d%3A0x102b8b4d7048b6!2sMadrid!5e0!3m2!1ses!2ses!4v1600000000000"
+              width="100%"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            >
+            </iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="footer">
+      <div class="name-socials">
         <div class="logo__title">
           <img src="./images/1.png" alt="logo" class="logo-footer" />
           <h2 class="title-footer">Ada Travel</h2>
@@ -61,7 +78,14 @@
             </li>
           </ul>
         </div>
-  </footer>
-</body>
-
+      </div>
+      <nav class="menu-footer">
+        <ul class="lista-menu">
+          <li><a class="home-negrita" href="./index.html#hero">Home</a></li>
+          <li class="nosotras">Nosotras</li>
+          <li class="contacto-footer">Contacto</li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>
