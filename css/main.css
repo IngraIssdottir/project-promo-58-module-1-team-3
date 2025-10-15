@@ -48,8 +48,9 @@ header {
   border-radius: 50px;
   box-shadow: 0px 30px 25px 0px rgba(0, 0, 0, 0.2);
   width: 100%;
-  text-align: center;
+  transition: transform 0.3s ease;
   text-decoration: none;
+  text-align: center;
 }
 
 /* parte Jenny*/
@@ -267,6 +268,15 @@ header {
   transition: all 0.3s ease;
 }
 
+.menu {
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.menu:hover {
+  transform: scale(1.2);
+}
+
 /* A PARTIR DE AQUÍ VERSIÓN ESCRITORIO */
 
 @media (width >= 1000px) {
@@ -278,6 +288,10 @@ header {
     align-items: center;
   }
 
+  .menu {
+    display: none;
+  }
+
   .nav-menu {
     display: block;
   }
@@ -286,9 +300,12 @@ header {
     display: flex;
   }
 
-  .menu {
-    display: none;
+  .hero-button:hover {
+    transform: scale(1.2);
+    text-align: center;
+    text-decoration: none;
   }
+
   .a-menu {
     color: black;
     text-decoration: none;
